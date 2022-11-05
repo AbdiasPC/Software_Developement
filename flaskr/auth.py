@@ -40,7 +40,7 @@ def register():
 
             flash(error)
 
-            return render_template('auth/register.html')
+    return render_template('auth/register.html')
 
 #Login view which follows the same pattern as the register view
 
